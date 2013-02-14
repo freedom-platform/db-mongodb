@@ -1,7 +1,7 @@
 {
     "uid": "http://github.com/freedom-platform/db-mongodb/",
     "name": "freedom-platform-db-mongodb",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publish": true,
     "pm": "sm",
     "bin": {
