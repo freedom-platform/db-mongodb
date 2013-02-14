@@ -5,8 +5,8 @@
     "publish": true,
     "pm": "sm",
     "bin": {
-        "mongo": "./.sm/bin/mongo",
-        "mongod": "./.sm/bin/mongod"
+        "mongo": "./bin/mongo",
+        "mongod": "./bin/mongod"
     },
     "main": "./main.js",
     "dependencies": {
