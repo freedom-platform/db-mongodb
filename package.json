@@ -10,7 +10,7 @@
     },
     "main": "./main.js",
     "dependencies": {
-        "pinf": "~0.1.0"
+        "pinf": "~0.2.0"
     },
     "mappings": {
         "sm-util": "github.com/sourcemint/sm-util/~0.1.0"
