@@ -1,0 +1,7 @@
+{
+	"config": {
+		"github.com/freedom-platform/db-mongodb/0": {
+			"verbose": true
+		}
+	}
+}

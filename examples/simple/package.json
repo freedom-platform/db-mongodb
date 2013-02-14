@@ -1,0 +1,10 @@
+{
+	"name": "simple",
+	"version": "0.1.0",
+	"mappings": {
+		"db-mongodb": "github.com/freedom-platform/db-mongodb/~0.1.0"
+	},
+	"scripts": {
+		"run": "node ./main.js"
+	}
+}
