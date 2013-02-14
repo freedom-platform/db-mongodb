@@ -1,7 +1,7 @@
 {
     "uid": "http://github.com/freedom-platform/db-mongodb/",
     "name": "freedom-platform-db-mongodb",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publish": true,
     "pm": "sm",
     "bin": {
@@ -16,15 +16,22 @@
         "sm-util": "github.com/sourcemint/sm-util/~0.1.0"
     },
     "optionalMappings": {
-        "api-mongoose": ["npm", "mongoose@~3.5.5"],
-        "mongodb-darwin": ["archive", "http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.2.2.tgz", {
-            "descriptor": {
-                "bin": {
-                    "mongo": "./bin/mongo",
-                    "mongod": "./bin/mongod"
+        "api-mongoose": [
+            "npm",
+            "mongoose@~3.5.5"
+        ],
+        "mongodb-darwin": [
+            "archive",
+            "http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.2.2.tgz",
+            {
+                "descriptor": {
+                    "bin": {
+                        "mongo": "./bin/mongo",
+                        "mongod": "./bin/mongod"
+                    }
                 }
-            }            
-        }]
+            }
+        ]
     },
     "config": {
         "api": "mongoose"
